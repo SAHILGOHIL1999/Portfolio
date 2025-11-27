@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container ">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div class="me-2 bg-primary rounded-2" style="width:36px;height:28px;"></div>
+                <span class="fw-semibold" style="color:#29b6ff">Sa<span style="color:#8ee1ff">h</span>il</span>
+            </a>
+
+            <button class="navbar-toggler border-0" style="color:#29b6ff" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active px-3" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- social icons -->
+            <div class="d-none d-lg-flex align-items-center gap-2">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                <a href="https://x.com/"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+                <a href="https://www.pinterest.com/pin/420805158903886684/"><i class="fa-brands fa-pinterest-p"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/instagram/?hl=en"><i class="fa-brands fa-instagram"
+                        style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="border-bottom"></div>
+
+    <!-- HERO -->
+    <header class="container py-5 position-relative" style="z-index:1;">
+        <div class="row align-items-center" style="min-height:70vh;">
+            <div class="col-12 text-center">
+
+                <!-- Hand -->
+                <div class="d-flex justify-content-center align-items-center gap-3 mt-0">
+                    <div style="font-size:3rem;">👋</div>
+                    <h1 class="h1 text-white mt-2">My name is Sahil Gohil a freelancer</h1>
+                </div>
+
+                <!-- big Photographer  -->
+                <!-- <div class="position-relative d-flex justify-content-center align-items-center">
+                    <div class="bg-outline position-absolute container" style="font-size:10rem;">Photographer</div> -->
+
+                <!-- profile image sits above the big word -->
+                <img src="images/main-demo.webp" alt="profile"
+                    class="profile-img mx-auto img-fluid d-block position-relative " />
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- vertical side badge (right) -->
+    <div class="position-fixed end-0 top-50 translate-middle-y me-3 d-none d-md-block" style="z-index:3;">
+        <div class="side-badge">34+ PRE-BUILT SITES</div>
+    </div>
+
+    <!-- messenger floating button bottom-left -->
+    <div class="position-fixed start-0 bottom-0 m-4" style="z-index:5;">
+        <div class="messenger-btn">
+            <!-- simple icon letter -->
+            <span class="text-white fw-bold">💬</span>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section class="container py-5">
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-5">
+                <div class="glow-box">
+                    <img src="images/01.webp" class="img-fluid rounded-4">
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <p class="text-info fw-semibold mb-1">ABOUT ME</p>
+                <h2 class="fw-bold mb-3">Boost Business Strategic <br> Solutions With Us</h2>
+                <p>
+                    Business consulting consultants provide expert advice and guide businesses to
+                    improve performance, efficiency & organization.
+                </p>
+
+                <div class="row g-3 mt-4">
+                    <div class="col-md-6">
+                        <div class="service-box">
+                            <div class="icon-circle">📎</div>
+                            <h5 class="fw-bold">Business</h5>
+                            <p class="mb-0">Each one showcases my approach</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="service-box">
+                            <div class="icon-circle">📣</div>
+                            <h5 class="fw-bold">Partners</h5>
+                            <p class="mb-0">Business consulting helps to provide solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-outline-info mt-4 px-4 py-2 rounded-pill">
+                    Read More About Me →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="container py-3">
+        <div class="row text-center g-3">
+            <div class="col-6 col-md-3">
+                <div class="stats-box">
+                    <h3 class="fw-bold">20k</h3>
+                    <p>Our Projects</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="stats-box">
+                    <h3 class="fw-bold">10k</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="stats-box">
+                    <h3 class="fw-bold">200+</h3>
+                    <p>Global Awards</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="stats-box">
+                    <h3 class="fw-bold">2k+</h3>
+                    <p>Our Active Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container py-5">
+        <p class="text-center section-title">HELLO WORLD</p>
+        <h2 class="text-center mb-5">What I Provide For You</h2>
+        <div class="row g-4">
+
+            <!-- UI/UX -->
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <div class="icon-box">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h5 class="fw-bold">UI/UX Design</h5>
+                    <p>Each one showcases my approach and dedication to detail, creativity and modern design.</p>
+                </div>
+            </div>
+
+            <!-- Web Dev -->
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <div class="icon-box">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+                    <h5 class="fw-bold">Web Development</h5>
+                    <p>I provide expert advice and creative solutions for all modern web development needs.</p>
+                </div>
+            </div>
+
+            <!-- Business -->
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <div class="icon-box">
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <h5 class="fw-bold">Business Solutions</h5>
+                    <p>Strategies & tools designed to improve business efficiency, profitability, and operations.</p>
+                </div>
+            </div>
+
+            <!-- Profit Partners -->
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <div class="icon-box">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h5 class="fw-bold">Profit Partners</h5>
+                    <p>We collaborate to maximize revenue, streamline operations, and drive long-term success.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
