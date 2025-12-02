@@ -4,6 +4,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Logo */
+.logo{
+    font-family: "Bungee Shade", sans-serif;
+}
+
 /* vertical side badge */
 .side-badge {
     writing-mode: vertical-rl;
